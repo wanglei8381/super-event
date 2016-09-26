@@ -28,7 +28,7 @@
         }
 
         var keys = Object.keys(events);
-        if (keys.length === 0) return this;
+        if (keys.length === 0) return events;
 
         if (cb && typeof cb === 'function') {
             keys.forEach(function (key) {

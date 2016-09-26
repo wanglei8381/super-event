@@ -1,6 +1,6 @@
 {
   "name": "super-event",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "给予对象绑定和触发自定义事件",
   "license": "MIT",
   "main": "index.js",
