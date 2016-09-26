@@ -3,10 +3,15 @@
 var Event = require('./');
 var e = new Event();
 
-e.on('start', function (msg) {
+function foo(msg) {
     console.log('---->', msg);
-});
+}
+
+e.on('start', foo);
 
 e.trigger('start', 'ABC');
 
-e.pause('move');
+e.pause('start', foo);
+
+
+e.trigger('start', 'ABC');
