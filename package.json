@@ -1,0 +1,19 @@
+{
+  "name": "super-event",
+  "version": "0.0.1",
+  "description": "给予对象绑定和触发自定义事件",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "wanglei",
+  "keywords": [
+    "super-event",
+    "event"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wanglei8381/super-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanglei8381/super-event/issues"
+  }
+}
